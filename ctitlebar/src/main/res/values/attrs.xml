@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CTitleBar">
+        <!--titlebar颜色-->
+        <attr name="CTitlebarRootColor" format="color" />
+        <!--title是否可见-->
+        <attr name="CTitlebarTitleVisible" format="boolean" />
+        <!--title-->
+        <attr name="CTitlebarTitle" format="string" />
+        <!--title颜色-->
+        <attr name="CTitlebarTitleColor" format="color" />
+        <!--左边后退是否可见-->
+        <attr name="CTitlebarBackVisible" format="boolean" />
+        <!--左边后退是否可见-->
+        <attr name="CTitlebarBackImage" format="reference" />
+        <!--右边text是否可见-->
+        <attr name="CTitlebarRightVisible" format="boolean" />
+        <!--右边text字符-->
+        <attr name="CTitlebarRightText" format="string" />
+        <!--右边text颜色-->
+        <attr name="CTitlebarRightTextColor" format="color" />
+        <!--左边text是否可见-->
+        <attr name="CTitlebarLeftVisible" format="boolean" />
+        <!--左边text字符-->
+        <attr name="CTitlebarLeftText" format="string" />
+        <!--右边image是否可见-->
+        <attr name="CTitlebarRightImageVisible" format="boolean" />
+        <!--右边image图片-->
+        <attr name="CTitlebarRightImage" format="reference" />
+        <!--下划线-->
+        <attr name="CTitlebarDividerVisible" format="boolean" />
+
+        <attr name="CTitlebarFullScreen" format="boolean" />
+    </declare-styleable>
+</resources>
