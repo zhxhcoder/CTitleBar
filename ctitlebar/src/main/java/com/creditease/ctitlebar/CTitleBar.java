@@ -23,7 +23,7 @@ public class CTitleBar extends LinearLayout {
     private View statusBarInsert; // 状态栏
     private RelativeLayout titleLayout; // 整个title布局
 
-    private TextView mTitleTV; // title
+    private TextView centerTitleTV; // title
 
     public CTitleBar(Context context) {
         super(context);
@@ -51,7 +51,7 @@ public class CTitleBar extends LinearLayout {
         llRoot = findViewById(R.id.llRoot);
         statusBarInsert = findViewById(R.id.statusBarInsert);
         titleLayout = findViewById(R.id.titleLayout);
-        mTitleTV = findViewById(R.id.mTitleTV);
+        centerTitleTV = findViewById(R.id.centerTitleTV);
 
         // 根据属性值设置TitleBar
         if (attrs != null) {
@@ -109,7 +109,7 @@ public class CTitleBar extends LinearLayout {
     }
 
     public void setTitleTextView(String title) {
-        mTitleTV.setText(title);
-        mTitleTV.setVisibility(View.VISIBLE);
+        centerTitleTV.setText(title);
+        centerTitleTV.setVisibility(View.VISIBLE);
     }
 }
