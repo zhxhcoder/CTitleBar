@@ -23,6 +23,16 @@
             android:singleLine="true" />
 
         <TextView
+            android:id="@+id/leftTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:singleLine="true" />
+
+        <TextView
             android:id="@+id/rightTV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -35,17 +45,6 @@
 
         <ImageView
             android:id="@+id/rightImg"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:ellipsize="end"
-            android:gravity="center"
-            android:includeFontPadding="false"
-            android:singleLine="true" />
-
-
-        <TextView
-            android:id="@+id/leftTV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
